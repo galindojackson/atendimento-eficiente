@@ -1,12 +1,4 @@
 # ASP.NET Core
-- task: LambdaNETCoreDeploy@1
-  inputs:
-    awsCredentials: 'aws.galindojackson'
-    regionName: 'us-east-2'
-    command: 'deployFunction'
-    packageOnly: false
-    functionName: 'atendimento-virtual'
-
 trigger:
 - master
 
@@ -19,3 +11,5 @@ variables:
 steps:
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'dotnet build $(buildConfiguration)'
+
+
