@@ -1,0 +1,30 @@
+C:\_estudos\Kafka\Kafka.Consumer.Handler\obj\Debug\netcoreapp2.2\Kafka.Consumer.Handler.csproj.CoreCompileInputs.cache
+C:\_estudos\Kafka\Kafka.Consumer.Handler\obj\Debug\netcoreapp2.2\Kafka.Consumer.Handler.AssemblyInfoInputs.cache
+C:\_estudos\Kafka\Kafka.Consumer.Handler\obj\Debug\netcoreapp2.2\Kafka.Consumer.Handler.AssemblyInfo.cs
+C:\_estudos\Kafka\Kafka.Consumer.Handler\bin\Debug\netcoreapp2.2\Kafka.Consumer.Handler.deps.json
+C:\_estudos\Kafka\Kafka.Consumer.Handler\bin\Debug\netcoreapp2.2\Kafka.Consumer.Handler.runtimeconfig.json
+C:\_estudos\Kafka\Kafka.Consumer.Handler\bin\Debug\netcoreapp2.2\Kafka.Consumer.Handler.runtimeconfig.dev.json
+C:\_estudos\Kafka\Kafka.Consumer.Handler\bin\Debug\netcoreapp2.2\Kafka.Consumer.Handler.dll
+C:\_estudos\Kafka\Kafka.Consumer.Handler\obj\Debug\netcoreapp2.2\Kafka.Consumer.Handler.csprojAssemblyReference.cache
+C:\_estudos\Kafka\Kafka.Consumer.Handler\obj\Debug\netcoreapp2.2\Kafka.Consumer.Handler.RazorAssemblyInfo.cache
+C:\_estudos\Kafka\Kafka.Consumer.Handler\obj\Debug\netcoreapp2.2\Kafka.Consumer.Handler.RazorAssemblyInfo.cs
+C:\_estudos\Kafka\Kafka.Consumer.Handler\obj\Debug\netcoreapp2.2\Kafka.Consumer.Handler.RazorTargetAssemblyInfo.cache
+C:\_estudos\Kafka\Kafka.Consumer.Handler\bin\Debug\netcoreapp2.2\Kafka.Consumer.Handler.pdb
+C:\_estudos\Kafka\Kafka.Consumer.Handler\obj\Debug\netcoreapp2.2\Kafka.Consumer.Handler.dll
+C:\_estudos\Kafka\Kafka.Consumer.Handler\obj\Debug\netcoreapp2.2\Kafka.Consumer.Handler.pdb
+D:\Google Drive\Particular\atendimento-eficiente\Kafka\Kafka.Consumer.Handler\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\Google Drive\Particular\atendimento-eficiente\Kafka\Kafka.Consumer.Handler\bin\Debug\netcoreapp2.2\appsettings.json
+D:\Google Drive\Particular\atendimento-eficiente\Kafka\Kafka.Consumer.Handler\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\Google Drive\Particular\atendimento-eficiente\Kafka\Kafka.Consumer.Handler\bin\Debug\netcoreapp2.2\Kafka.Consumer.Handler.deps.json
+D:\Google Drive\Particular\atendimento-eficiente\Kafka\Kafka.Consumer.Handler\bin\Debug\netcoreapp2.2\Kafka.Consumer.Handler.runtimeconfig.json
+D:\Google Drive\Particular\atendimento-eficiente\Kafka\Kafka.Consumer.Handler\bin\Debug\netcoreapp2.2\Kafka.Consumer.Handler.runtimeconfig.dev.json
+D:\Google Drive\Particular\atendimento-eficiente\Kafka\Kafka.Consumer.Handler\bin\Debug\netcoreapp2.2\Kafka.Consumer.Handler.dll
+D:\Google Drive\Particular\atendimento-eficiente\Kafka\Kafka.Consumer.Handler\bin\Debug\netcoreapp2.2\Kafka.Consumer.Handler.pdb
+D:\Google Drive\Particular\atendimento-eficiente\Kafka\Kafka.Consumer.Handler\obj\Debug\netcoreapp2.2\Kafka.Consumer.Handler.csprojAssemblyReference.cache
+D:\Google Drive\Particular\atendimento-eficiente\Kafka\Kafka.Consumer.Handler\obj\Debug\netcoreapp2.2\Kafka.Consumer.Handler.RazorAssemblyInfo.cache
+D:\Google Drive\Particular\atendimento-eficiente\Kafka\Kafka.Consumer.Handler\obj\Debug\netcoreapp2.2\Kafka.Consumer.Handler.RazorAssemblyInfo.cs
+D:\Google Drive\Particular\atendimento-eficiente\Kafka\Kafka.Consumer.Handler\obj\Debug\netcoreapp2.2\Kafka.Consumer.Handler.AssemblyInfoInputs.cache
+D:\Google Drive\Particular\atendimento-eficiente\Kafka\Kafka.Consumer.Handler\obj\Debug\netcoreapp2.2\Kafka.Consumer.Handler.AssemblyInfo.cs
+D:\Google Drive\Particular\atendimento-eficiente\Kafka\Kafka.Consumer.Handler\obj\Debug\netcoreapp2.2\Kafka.Consumer.Handler.RazorTargetAssemblyInfo.cache
+D:\Google Drive\Particular\atendimento-eficiente\Kafka\Kafka.Consumer.Handler\obj\Debug\netcoreapp2.2\Kafka.Consumer.Handler.dll
+D:\Google Drive\Particular\atendimento-eficiente\Kafka\Kafka.Consumer.Handler\obj\Debug\netcoreapp2.2\Kafka.Consumer.Handler.pdb
