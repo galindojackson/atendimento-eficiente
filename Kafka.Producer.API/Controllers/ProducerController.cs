@@ -5,6 +5,7 @@ using Kafka.Producer.API.Domain.DTO;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 
 namespace Kafka.Producer.API.Controllers
 {
@@ -13,9 +14,11 @@ namespace Kafka.Producer.API.Controllers
     public class ProducerController : ControllerBase
     {
         private readonly IConfiguration _configuration;
+        private readonly ILogger _logger;
 
-        public ProducerController(IConfiguration configuration)
+        public ProducerController(ILogger<ProducerController> logger,IConfiguration configuration)
         {
+            _logger = logger;
             _configuration = configuration;
         }
 
@@ -52,6 +55,8 @@ namespace Kafka.Producer.API.Controllers
                                         .ProduceAsync("atendimento-virtual", new Message<Null, string> { Value = message })
                                             .GetAwaiter()
                                                 .GetResult();
+
+                    _logger.LogInformation($"Mensagem: {sendResult.Value} incluída em{sendResult.TopicPartitionOffset}");
 
                     return $"Mensagem '{sendResult.Value}' de '{sendResult.TopicPartitionOffset}'";
                 }

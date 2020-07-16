@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Swashbuckle.AspNetCore.Swagger;
+using Swashbuckle.Swagger;
 
 namespace Kafka.Producer.API
 {
@@ -19,18 +20,21 @@ namespace Kafka.Producer.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddControllers();
 
             services.AddSwaggerGen(s =>
             {
-                s.SwaggerDoc("v1", new Info
+                s.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
                 {
+                    
                     Version = "v1",
                     Title = "Kafka",
                     Description = "Kafka",
-                    Contact = new Contact { Name = "Jackson Galindo" },
+                    Contact = new Microsoft.OpenApi.Models.OpenApiContact { Name = "Jackson Galindo" },
                 });
             });
+
+
 
         }
 
@@ -41,8 +45,17 @@ namespace Kafka.Producer.API
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+                app.UseHsts();
+            }
+            app.UseRouting();
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
 
-            app.UseMvc();
             app.UseSwagger();
             app.UseSwaggerUI(s =>
             {
